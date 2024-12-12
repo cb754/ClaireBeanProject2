@@ -211,3 +211,7 @@ body {
     align-content: center;
     margin: 5px;
 }
+
+.iframe-container { 
+    align-items: center;
+}
