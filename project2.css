@@ -107,7 +107,7 @@ body {
 .container2 {
     display: grid;
     grid-template-rows: repeat(7, 220px);
-    grid-template-columns: repeat(4, 500px); 
+    grid-template-columns: repeat(4, 33%); 
     margin: 5px;
     place-items: center;
     border: 2px solid black;
@@ -128,19 +128,24 @@ body {
     grid-row: 2/3;
     grid-column: 1/2;
     margin: 5px;
-    border: 
+    border: solid black;
 }
 
 .item2-3 { 
     grid-row: 2/3;
     grid-column: 2/3;
     margin: 5px;
+    border: solid black;
+    height: 230px;
+    width: 230px;
 }
 
 .item2-4 { 
     grid-row: 2/3;
     grid-column: 3/4;
     margin: 5px;
+    padding: 3px;
+    border: solid black;
 }
 
 .item2-5 { 
@@ -153,6 +158,8 @@ body {
     grid-row: 3/4;
     grid-column: 2/3;
     margin: 5px;
+    height: 200px;
+    width: 200px;
 }
 
 .item2-7 { 
