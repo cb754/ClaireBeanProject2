@@ -129,20 +129,31 @@ body {
     background-color: darkblue;
 }
 
+/* I used chatgpt to help wme with the animation of this item*/
+
 .item2-2 { 
     grid-row: 2/3;
     grid-column: 1/2;
     margin: 5px;
-    border: solid black;
+    transition: transform 2s ease-in-out; /* Smooth transition */
 }
 
+.item2-2:hover {
+    transform: rotate(360deg);  /* Rotate on hover */
+}
+
+/* I used chatgpt to help wme with the animation of this item*/
 .item2-3 { 
     grid-row: 2/3;
     grid-column: 2/3;
     margin: 5px;
-    border: solid black;
     height: 230px;
     width: 230px;
+    transition: .5s ease-in-out; /* Smooth transition */
+}
+
+.item2-3:hover {
+    transform: scale(1.2, 1.2); 
 }
 
 .item2-4 { 
@@ -151,6 +162,11 @@ body {
     margin: 5px;
     padding: 3px;
     border: solid black;
+    transition: transform 2s ease-in-out; /* Smooth transition */
+}
+
+.item2-4:hover {
+    transform: rotate(360deg);  /* Rotate on hover */
 }
 
 .item2-5 { 
