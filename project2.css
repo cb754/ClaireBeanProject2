@@ -156,17 +156,18 @@ body {
     transform: scale(1.2, 1.2); 
 }
 
+/* I used chatgpt to help wme with the animation of this item*/
 .item2-4 { 
     grid-row: 2/3;
     grid-column: 3/4;
     margin: 5px;
     padding: 3px;
     border: solid black;
-    transition: transform 2s ease-in-out; /* Smooth transition */
+    transition: opacity .25s ease-in-out; /* Smooth transition */
 }
 
 .item2-4:hover {
-    transform: rotate(360deg);  /* Rotate on hover */
+    opacity: 0.75;  /* become 25% more opaque on hover */
 }
 
 .item2-5 { 
